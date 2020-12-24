@@ -1,0 +1,28 @@
+name = "Embassy"
+description = ""
+max_level = 35
+effects = [ "ally_defense_max", "help_times" ]
+
+[levels.1]
+ally_defense_max = 10000
+help_times = 5 # level +4
+battle_power = 5
+
+[levels.2]
+ally_defense_max = 15000
+help_times = 6
+battle_power = 13
+
+[levels.14]
+ally_defense_max = 153000
+help_times = 18
+battle_power = 2822
+
+[levels.15]
+ally_defense_max = 171000
+help_times = 19
+battle_power = 3598
+building_prerequisites = {main-hall=15}
+costs={oil=682320}
+gold_cost=3270
+duration="11h 1m 19s"

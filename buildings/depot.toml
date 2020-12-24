@@ -9,6 +9,12 @@ oil           = 300000
 steel         = 60000
 mineral       = 30000
 
+[levels.8]
+#battle_power =
+building_prerequisites = {main-hall=8}
+costs={food=4890,oil=4890}
+gold_cost = 245
+duration = "1h 36m 5s"
 
 [levels.15]
 battle_power  = 3998

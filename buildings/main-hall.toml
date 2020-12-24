@@ -73,6 +73,8 @@ battle_power = 9132
 gather_speed_boost=0.3
 costs = {food=757570,oil=757570}
 building_prerequisites = {hospital=11,city-wall=11}
+gold_cost = 4000
+duration = "1d 2h 38m 54s"
 
 [levels.13]
 battle_power = 12084

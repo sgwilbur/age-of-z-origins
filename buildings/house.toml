@@ -1,49 +1,246 @@
 name = "House"
 description = "Use to turn Refugees into citizens of your City. Upgrade to house more people."
-
-# Levels 1-30
+max_level = 30
+effects = ["refugee_limit"]
 
 [levels.1]
-battle_power = 3
-refugee_limit_boost = 400
+  refugee_limit_boost = 400
+  battle_power = 3
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.2]
-battle_power = 8
-refugee_limit_boost = 500
-cost={food=430,oil=430}
-building_prerequisites={main-hall=5}
+  refugee_limit_boost = 500
+  battle_power = 8
+  cost={food=430,oil=430}
+  building_prerequisites={main-hall=5}
+  costs = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.3]
-battle_power = 20
-refugee_limit_boost = 600
-cost={food=550,oil=550}
-building_prerequisites={main-hall=5}
+  refugee_limit_boost = 600
+  battle_power = 20
+  cost={food=550,oil=550}
+  building_prerequisites={main-hall=5}
+  costs = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.4]
-battle_power = 43
-refugee_limit_boost = 700
-cost={food=780,oil=780}
-building_prerequisites={main-hall=5}
+  refugee_limit_boost = 700
+  battle_power = 43
+  building_prerequisites={main-hall=5}
+  cost={food=780,oil=780}
+  gold_cost = -1
+  duration = ""
 
 [levels.5]
-battle_power = 79
-refugee_limit_boost = 800
-cost={food=1160,oil=1160}
-building_prerequisites={main-hall=5}
+  refugee_limit_boost = 800
+  battle_power = 79
+  building_prerequisites={main-hall=5}
+  cost={food=1160,oil=1160}
+  gold_cost = -1
+  duration = ""
 
 [levels.6]
-battle_power = 133
-refugee_limit_boost = 900
-cost={food=1790,oil=1790}
-building_prerequisites={main-hall=6}
+  refugee_limit_boost = 900
+  battle_power = 133
+  building_prerequisites={main-hall=6}
+  cost={food=1790,oil=1790}
+  gold_cost = -1
+  duration = ""
 
-# TODO
-# levels 7-16
+[levels.7]
+  refugee_limit_boost = 1000
+  battle_power = 209
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.8]
+  refugee_limit_boost = 1100
+  battle_power = 313
+  building_prerequisites = {main-hall=8}
+  costs = {food=5730,oil=5730}
+  gold_cost = 84
+  duration = "32m 18s"
+
+[levels.9]
+  refugee_limit_boost = 1200
+  battle_power = 450
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.10]
+  refugee_limit_boost = 1300
+  battle_power = 625
+  building_prerequisites={main-hall=10}
+  costs = {food=19910,oil=19910}
+  gold_cost=193
+  duration = "1h 15m 24s"
+
+[levels.11]
+  refugee_limit_boost = 1500
+  battle_power = 844
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.12]
+  refugee_limit_boost = 1700
+  battle_power = 1113
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.13]
+  refugee_limit_boost = 1900
+  battle_power = 1439
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.14]
+  refugee_limit_boost = 2100
+  battle_power = 1829
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.15]
+  refugee_limit_boost = 2300
+  battle_power = 2290
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.16]
+  refugee_limit_boost = 2500
+  battle_power = 2829
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.17]
-battle_power = 3455
-refugee_limit_boost = 2700
-cost={food=313720,oil=313720,steel=53780}
-building_prerequisites={main-hall=17}
+  refugee_limit_boost = 2700
+  battle_power = 3455
+  building_prerequisites={main-hall=17}
+  cost={food=313720,oil=313720,steel=53780}
+  gold_cost = -1
+  duration = ""
 
-# TODO: Levels 18-30
+[levels.18]
+  refugee_limit_boost = 2900
+  battle_power = 4177
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.19]
+  refugee_limit_boost = 3100
+  battle_power = 5002
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.20]
+  refugee_limit_boost = 3300
+  battle_power = 5939
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.21]
+  refugee_limit_boost = 3600
+  battle_power = 6999
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.22]
+  refugee_limit_boost = 3900
+  battle_power = 8189
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.23]
+  refugee_limit_boost = 4200
+  battle_power = 9519
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.24]
+  refugee_limit_boost = 4500
+  battle_power = 11000
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.25]
+  refugee_limit_boost = 4800
+  battle_power = 12642
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.26]
+  refugee_limit_boost = 5100
+  battle_power = 14456
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.27]
+  refugee_limit_boost = 5400
+  battle_power = 16451
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.28]
+  refugee_limit_boost = 5700
+  battle_power = 18640
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.29]
+  refugee_limit_boost = 6000
+  battle_power = 21031
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""
+
+[levels.30]
+  refugee_limit_boost = 6300
+  battle_power = 23636
+  building_prerequisites={}
+  cost={}
+  gold_cost = -1
+  duration = ""

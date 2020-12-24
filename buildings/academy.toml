@@ -1,0 +1,8 @@
+name = "Academy"
+description = ""
+
+[levels.12]
+building_prerequisites={main-hall=12}
+costs = {oil=160000}
+gold_cost = 1335
+duration = "8h 52m 9s"

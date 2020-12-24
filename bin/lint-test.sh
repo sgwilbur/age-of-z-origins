@@ -2,13 +2,14 @@
 
 for i in buildings/* garage-research/* academy-research/*
 do
-  echo $i
   ./bin/reader.py $i > /dev/null
   result=$?
-  echo "result: ${result}"
-  if [[ $result} == 1 ]]
+
+  echo "${result} :: ${i}"
+  if [[ ${result} == 1 ]]
   then
-    echo "Error processing file $i"
+    echo "Error loading data from file $i"
+    echo "Review and retry: ./bin/reader.py $i"
     exit 1
   fi
 done

@@ -1,5 +1,22 @@
 name = "Camp"
 description = "Camp is where you recruit more troops. Upgrade to unlock more troop types and increase your recruitment speed."
+max_level = 35
+# troops = {  1 = ["basic_infantry", "basic_gunner"],
+#             2 = ["basic_rocket_launcher", "basic_sniper"],
+#             3 = ["skilled_infantry", "skilled_gunner"] }
+
+
+[levels.6]
+building_prerequisites = {main-hall=6}
+costs={food=5300,oil=3530}
+gold_cost=135
+duration="52m 14s"
+
+[levels.7]
+building_prerequisites = {main-hall=7}
+costs={food=10530,oil=7020}
+gold_cost=265
+duration="1h 44m 28s"
 
 [levels.14]
 battle_power = 6130
@@ -13,4 +30,4 @@ duration="22h 2m 38s"
 
 [levels.16]
 battle_power = 9816
-#unlocks = {intermediate-rocket-launcher, intermediate-sniper}
+#unlocks intermediate-rocket-launcher & intermediate-sniper

@@ -1,32 +1,283 @@
-
 name = "Garage"
 description = "The Garage can increase your number of Fleets. Garage Technology can be used to increase Fleet related Troop Stats."
-
-# level 1 - 35
+max_level = 35
 
 [levels.1]
-max_units = 2000
-battle_power = 5
-costs = {}
-building_prerequisites = {}
+  max_units = 2000
+  battle_power = 5
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
 
+[levels.2]
+  max_units = 4100
+  battle_power = 13
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.3]
+  max_units = 6300
+  battle_power = 26
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.4]
+  max_units = 8600
+  battle_power = 50
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.5]
+  max_units = 11000
+  battle_power = 92
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.6]
+  max_units = 13500
+  battle_power = 160
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.7]
+  max_units = 16100
+  battle_power = 262
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.8]
+  max_units = 18800
+  battle_power = 408
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.9]
+  max_units = 21600
+  battle_power = 608
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.10]
+  max_units = 24600
+  battle_power = 873
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.11]
-max_units = 278000
-battle_power = 1214
-costs = {oil=-1}
-building_prerequisites = {main-hall=11}
+  max_units = 278000
+  battle_power = 1214
+  costs = {oil=-1}
+  building_prerequisites = {main-hall=11}
+  gold_cost = -1
+  duration = ""
 
 [levels.12]
-max_units = 278000
-battle_power = 1214
-costs = {oil=185930}
-building_prerequisites = {main-hall=12}
+  max_units = 278000
+  battle_power = 1214
+  costs = {oil=185930}
+  building_prerequisites = {main-hall=12}
+  gold_cost = 1335 # 1360
+  duration = "8h 52m 55s" # "9h 2m 34s"
+
+[levels.13]
+  max_units = 34800
+  battle_power = 2176
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.14]
+  max_units = 38600
+  battle_power = 2822
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.15]
+  max_units = 42600
+  battle_power = 3598
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.16]
+  max_units = 46800
+  battle_power = 4519
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.17]
+  max_units = 51200
+  battle_power = 5601
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.18]
-max_units = -1
-battle_power = -1
-costs = {oil=1593870,steel=212510}
-building_prerequisites = {main-hall=18}
-gold_cost=4815
-duration="1d 8h 4m 2s"
+  max_units = 55800
+  battle_power = 6859
+  costs = {oil=1593870,steel=212510}
+  building_prerequisites = {main-hall=18}
+  gold_cost=4815
+  duration="1d 8h 4m 2s"
+
+[levels.19]
+  max_units = 60600
+  battle_power = 8312
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.20]
+  max_units = 65600
+  battle_power = 9978
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.21]
+  max_units = 70800
+  battle_power = 11874
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.22]
+  max_units = 76200
+  battle_power = 14021
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.23]
+  max_units = 81800
+  battle_power = 16439
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.24]
+  max_units = 87600
+  battle_power = 19148
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.25]
+  max_units = 93600
+  battle_power = 22171
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.26]
+  max_units = 99800
+  battle_power = 25529
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.27]
+  max_units = 106200
+  battle_power = 29245
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.28]
+  max_units = 112800
+  battle_power = 33344
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.29]
+  max_units = 119600
+  battle_power = 37850
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.30]
+  max_units = 126600
+  battle_power = 42788
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.31]
+  max_units = 133800
+  battle_power = 49634
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.32]
+  max_units = 141200
+  battle_power = 57079
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.33]
+  max_units = 148800
+  battle_power = 65070
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.34]
+  max_units = 156600
+  battle_power = 73529
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.35]
+  max_units = 164600
+  battle_power = 82353
+  costs = {}
+  building_prerequisites = {}
+  gold_cost = -1
+  duration = ""

@@ -1,0 +1,10 @@
+name = "Factory"
+description = "Used to create all kinds of combat vehicles and artillery. Upgrade to unlock more  toop types and increase manfacturing speed."
+max_level = 35
+
+
+[levels.13]
+battle_power = 4726
+
+[levels.15]
+battle_power = 7816

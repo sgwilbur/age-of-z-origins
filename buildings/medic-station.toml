@@ -1,25 +1,243 @@
 name = "Medic Station"
 description = "Medic Stations hold Wounded. Upgrade to increase the Max Wounded Capacity,"
+max_levels = 30
 
+[levels.1]
+  max_wounded = 500
+  battle_power = 3
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.2]
+  max_wounded = 1000
+  battle_power = 8
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.3]
+  max_wounded = 1500
+  battle_power = 20
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.4]
+  max_wounded = 2000
+  battle_power = 43
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.5]
+  max_wounded = 2500
+  battle_power = 79
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.6]
+  max_wounded = 3000
+  battle_power = 133
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
+
+[levels.7]
+  max_wounded = 3500
+  battle_power = 209
+  building_prerequisites = {}
+  costs = {}
+  gold_cost = -1
+  duration = ""
 
 [levels.8]
-battle_power = 313
-max_wounded = 4000
-building_prerequisites = {main-hall=8}
-costs={food=8020,oil=3440}
+  max_wounded = 4000
+  battle_power = 313
+  building_prerequisites = {main-hall=8}
+  costs={food=8020,oil=3440}
+  gold_cost = -1
+  duration = ""
 
 [levels.9]
-battle_power = 450
-max_wounded = 4500
-building_prerequisites={main-hall=9}
-costs={food=13930,oil=5970}
-gold_cost=118
-duration="45m 48s"
+  battle_power = 450
+  max_wounded = 4500
+  building_prerequisites={main-hall=9}
+  costs={food=13930,oil=5970}
+  gold_cost=118
+  duration="45m 48s"
 
 [levels.10]
-battle_power = 625
-max_wounded = 5000
-building_prerequisites={main-hall=10}
-costs={food=27880,oil=11940}
-gold_cost=165
-duration="1h 4m 7s"
+  battle_power = 625
+  max_wounded = 5000
+  building_prerequisites={main-hall=10}
+  costs={food=27880,oil=11940}
+  gold_cost=165
+  duration="1h 4m 7s"
+
+[levels.11]
+  max_wounded = 5500
+  battle_power = 625
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.12]
+  max_wounded = 6000
+  battle_power = 1113
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.13]
+  max_wounded = 6500
+  battle_power = 1439
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.14]
+  max_wounded = 7000
+  battle_power = 1829
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.15]
+  max_wounded = 7500
+  battle_power = 2290
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.16]
+  max_wounded = 8000
+  battle_power = 2829
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.17]
+  max_wounded = 8500
+  battle_power = 3455
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.18]
+  max_wounded = 9000
+  battle_power = 4177
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.19]
+  max_wounded = 9500
+  battle_power = 5002
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.20]
+  max_wounded = 10000
+  battle_power = 5939
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.21]
+  max_wounded = 10500
+  battle_power = 6999
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.22]
+  max_wounded = 11000
+  battle_power = 8189
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.23]
+  max_wounded = 11500
+  battle_power = 9519
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.24]
+  max_wounded = 12000
+  battle_power = 11000
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.25]
+  max_wounded = 12500
+  battle_power = 12642
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.26]
+  max_wounded = 13000
+  battle_power = 14456
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.27]
+  max_wounded = 13500
+  battle_power = 16451
+  building_prerequisites = {}
+  costs={}
+  gold_cost = -1
+  duration = ""
+
+[levels.28]
+max_wounded = 14000
+battle_power = 18640
+building_prerequisites = {}
+costs={}
+gold_cost = -1
+duration = ""
+
+[levels.29]
+max_wounded = 14500
+battle_power = 21031
+building_prerequisites = {}
+costs={}
+gold_cost = -1
+duration = ""
+
+[levels.30]
+max_wounded = 15000
+battle_power = 23636
+building_prerequisites = {}
+costs={}
+gold_cost = -1
+duration = ""
