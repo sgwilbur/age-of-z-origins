@@ -1,0 +1,9 @@
+name = "Oil Output II"
+max_level = 5
+
+[levels.5]
+building_prerequisites = {academy=13}
+prerequisites = {depot-i=1}
+costs={food=241147}
+gold_cost=1853
+duration="12h 14m 51s"

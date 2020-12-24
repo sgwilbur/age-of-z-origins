@@ -1,0 +1,16 @@
+name = "Load"
+max_level = 10
+
+[levels.7]
+resource_load=0.07
+building_prerequisites={garage=17}
+cost={food=260780,oil=156470,steel=20860}
+gold_cost=1448
+research_duration="9h 32m 52s"
+
+[levels.8]
+resource_load=0.08
+building_prerequisites={garage=19}
+cost={food=443340,oil=266000,steel=35460}
+gold_cost=2403
+research_duration="15h 54m 46s"

@@ -1,0 +1,6 @@
+name = "Vehicle Queue"
+max_fleets = 4
+
+[fleets.4]
+building_prerequisites={garage=19}
+costs={food=4000000,oil=4000000,steel=1000000}

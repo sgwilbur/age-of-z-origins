@@ -1,0 +1,246 @@
+# buildings/farm.toml
+
+name = "Farm"
+description = "Farms produce and store food. Upgrade to increase the production output and capacity."
+
+[levels.1]
+  output = 400
+  capacity = 4000
+  battle_power = 1
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.2]
+  output = 510
+  capacity = 5100
+  battle_power = 4
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.3]
+  output = 630
+  capacity = 6300
+  battle_power = 11
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.4]
+  output = 760
+  capacity = 7600
+  battle_power = 24
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.5]
+  output = 900
+  capacity = 9000
+  battle_power = 45
+  output_effect = 297
+  capacity_effect = 2900
+  costs = {}
+  building_prerequisites = {main-hall=6}
+  skill_prerequisites = {}
+
+[levels.6]
+  output = 1050
+  capacity = 10500
+  battle_power = 76
+  costs = {oil=2240}
+  building_prerequisites = {main-hall=6}
+
+[levels.7]
+  output = 1210
+  capacity = 12100
+  battle_power = 120
+  costs = {oil=4070}
+  building_prerequisites = {main-hall=7}
+
+[levels.8]
+  output = 1380
+  capacity = 13800
+  battle_power = 180
+  costs = {oil=7190}
+  building_prerequisites = {main-hall=8}
+  #skill_prerequisites = {}
+
+[levels.9]
+  output = 1560
+  capacity = 15600
+  battle_power = 259
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.10]
+  output = 1750
+  capacity = 17500
+  battle_power = 360
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.11]
+  output = 1950
+  capacity = 19500
+  battle_power = 486
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.12]
+  output = 2160
+  capacity = 21600
+  battle_power = 641
+  costs = {oil=89160}
+  building_prerequisites = {main-hall=12}
+  gold_cost=198
+  duration="1h 17m 51s"
+
+
+[levels.13]
+  output = 2380
+  capacity = 23800
+  battle_power = 829
+  costs = {oil=132150}
+  building_prerequisites = {main-hall=13}
+  gold_cost=270
+  duration="1h 46m 36s"
+
+[levels.14]
+  output = 2610
+  capacity = 26100
+  battle_power = 1054
+  costs = {oil=206150}
+  building_prerequisites = {main-hall=14}
+  gold_cost=370
+  duration="2h 26m 33s"
+
+[levels.15]
+  output = 2850
+  capacity = 28500
+  battle_power = 1320
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.16]
+  output =  3100
+  capacity = 31000
+  battle_power = 1631
+
+[levels.17]
+  output =  3360
+  capacity = 33600
+  battle_power = 1992
+  building_prerequisites = {main-hall=17}
+  costs = {oil=562520}
+  gold_cost=700
+  duration="4h 38m 14s"
+
+[levels.18]
+  output =  3630
+  capacity = 36300
+  battle_power = 2408
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.19]
+  output =  3910
+  capacity = 39100
+  battle_power = 2884
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.20]
+  output =  4200
+  capacity = 42000
+  battle_power = 3425
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.21]
+  output =  4500
+  capacity = 45000
+  battle_power = 4036
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.22]
+  output =  4810
+  capacity = 48100
+  battle_power = 4722
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.23]
+  output = 5130
+  capacity = 51300
+  battle_power = 5489
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.24]
+  output =  5460
+  capacity = 54600
+  battle_power = 6343
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.25]
+  output =  5800
+  capacity = 58000
+  battle_power = 7290
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.26]
+  output =  6150
+  capacity = 61500
+  battle_power = 8336
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.27]
+  output =  6510
+  capacity = 65100
+  battle_power = 9487
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.28]
+  output =  6880
+  capacity = 68800
+  battle_power = 10749
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.29]
+  output =  7260
+  capacity = 72600
+  battle_power = 12128
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}
+
+[levels.30]
+  output =  7650
+  capacity = 76500
+  battle_power = 13630
+  #costs = {oil=}
+  #building_prerequisites = {main-hall=}
+  #skill_prerequisites = {}

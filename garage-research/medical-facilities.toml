@@ -1,0 +1,9 @@
+name = "Medical Facilities"
+max_level = 10
+
+[levels.7]
+max_wounded=6000
+building_prerequisites={garage=17}
+cost={food=154900,oil=258160,steel=20650}
+gold_cost=1230
+research_duration="8h 5m 08s"

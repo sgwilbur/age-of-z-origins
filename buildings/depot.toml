@@ -1,0 +1,27 @@
+name = "Depot"
+description = "Depot protects your collected resources from being plundered. Upgrade it to increase the number of resources protected."
+max_level = 35
+
+[levels.1]
+battle_power  = 5
+food          = 300000
+oil           = 300000
+steel         = 60000
+mineral       = 30000
+
+
+[levels.15]
+battle_power  = 3998
+food          = 531000
+oil           = 531000
+steel         = 106000
+mineral       = 53100
+
+[levels.16]
+battle_power  = 3998
+food          = 531000
+oil           = 531000
+steel         = 106000
+mineral       = 53100
+building_prerequisites = {main-hall=16}
+cost={food=335390,oil=335390,steel=35530}

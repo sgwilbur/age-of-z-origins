@@ -1,0 +1,31 @@
+name = "Oil Refinery"
+description = "Oil Refineries produce and store Oil. Upgrade to increase production output and capacity."
+max_level = 30
+
+
+[levels.13]
+battle_power = 829
+output = 2380
+capacity = 23800
+costs={food=132150}
+building_prerequisites={main-hall=13}
+gold_cost=270
+duration="1h 46m 36s"
+
+[levels.14]
+battle_power = 1054
+output = 2610
+capacity = 26100
+costs={food=206150}
+building_prerequisites={main-hall=14}
+gold_cost=370
+duration="2h 26m 33s"
+
+[levels.15]
+battle_power = 1320
+output = 2850
+capacity = 28500
+costs={food=298400}
+building_prerequisites={main-hall=15}
+gold_cost=468
+duration="3h 5m 37s"

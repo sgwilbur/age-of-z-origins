@@ -1,0 +1,25 @@
+name = "Medic Station"
+description = "Medic Stations hold Wounded. Upgrade to increase the Max Wounded Capacity,"
+
+
+[levels.8]
+battle_power = 313
+max_wounded = 4000
+building_prerequisites = {main-hall=8}
+costs={food=8020,oil=3440}
+
+[levels.9]
+battle_power = 450
+max_wounded = 4500
+building_prerequisites={main-hall=9}
+costs={food=13930,oil=5970}
+gold_cost=118
+duration="45m 48s"
+
+[levels.10]
+battle_power = 625
+max_wounded = 5000
+building_prerequisites={main-hall=10}
+costs={food=27880,oil=11940}
+gold_cost=165
+duration="1h 4m 7s"

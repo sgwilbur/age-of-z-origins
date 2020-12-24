@@ -1,0 +1,109 @@
+name = "Main Hall"
+description = "The core building of your city. Provides an overview of your city info."
+
+# levels 1-35
+[levels.1]
+battle_power = 24
+gather_speed_boost = 0.0
+costs = {}
+building_prerequisites = {}
+
+[levels.2]
+battle_power = 72
+gather_speed_boost = 0.0
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.3]
+battle_power = 144
+gather_speed_boost = 0.0
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.4]
+battle_power = 276
+gather_speed_boost = 0.0
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.5]
+battle_power = 508
+gather_speed_boost = 0.1
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.6]
+battle_power = 884
+gather_speed_boost = 0.1
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.7]
+battle_power = 1452
+gather_speed_boost = 0.1
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.8]
+battle_power = 2264
+gather_speed_boost = 0.2
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.9]
+battle_power = 3376
+gather_speed_boost = 0.2
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.10]
+battle_power = 4848
+gather_speed_boost = 0.2
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.11]
+battle_power = 6744
+gather_speed_boost=0.3
+costs = {food=-1,oil=-1}
+building_prerequisites = {}
+
+[levels.12]
+battle_power = 9132
+gather_speed_boost=0.3
+costs = {food=757570,oil=757570}
+building_prerequisites = {hospital=11,city-wall=11}
+
+[levels.13]
+battle_power = 12084
+gather_speed_boost=0.3
+costs = {food=-1,oil=-1}
+#building_prerequisites = {hospital=11,city-wall=11}
+
+[levels.14]
+battle_power = 15676
+gather_speed_boost=0.4
+costs = {food=-1,oil=-1}
+#building_prerequisites = {hospital=11,city-wall=11}
+
+[levels.15]
+battle_power = 19988
+gather_speed_boost=0.4
+costs = {food=-1,oil=-1}
+#building_prerequisites = {hospital=11,city-wall=11}
+
+# 16, 17
+
+[levels.18]
+battle_power=38104
+gather_speed_boost=0.5
+building_prerequisites={city-wall=17,training-grounds=17}
+costs={food=8749980,oil=8749980,steel=1499990}
+gold_cost=52637
+duration="4d 0h 12m 8s"
+
+[levels.35]
+battle_power = 457509
+gather_speed_boost = 0.5
+costs = {}
+building_prerequisites = {}

@@ -1,0 +1,32 @@
+
+name = "Garage"
+description = "The Garage can increase your number of Fleets. Garage Technology can be used to increase Fleet related Troop Stats."
+
+# level 1 - 35
+
+[levels.1]
+max_units = 2000
+battle_power = 5
+costs = {}
+building_prerequisites = {}
+
+
+[levels.11]
+max_units = 278000
+battle_power = 1214
+costs = {oil=-1}
+building_prerequisites = {main-hall=11}
+
+[levels.12]
+max_units = 278000
+battle_power = 1214
+costs = {oil=185930}
+building_prerequisites = {main-hall=12}
+
+[levels.18]
+max_units = -1
+battle_power = -1
+costs = {oil=1593870,steel=212510}
+building_prerequisites = {main-hall=18}
+gold_cost=4815
+duration="1d 8h 4m 2s"

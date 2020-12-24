@@ -1,0 +1,27 @@
+name = "City Wall"
+description = "Upgrade City Wall to increase the City Defense limit. You can activate Defense Tower at City Wall Lv.10."
+max_level = 35
+
+[levels.1]
+battle_power = 10
+city_defense_limit = 300
+
+[levels.16]
+battle_power = 10042
+city_defense_limit = 5000
+building_prerequisites={}
+cost={}
+
+[levels.17]
+battle_power = 12445
+city_defense_limit = 5400
+building_prerequisites={main-hall=17}
+cost={oil=6036880,steel=517440}
+gold_cost=17610
+duration="1d 16h 23m 47s"
+
+[levels.18]
+battle_power = 15242
+city_defense_limit = 5800
+building_prerequisites={main-hall=-1}
+cost={oil=-1,steel=-1}

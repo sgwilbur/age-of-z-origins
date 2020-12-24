@@ -1,0 +1,8 @@
+name = "Recon Center"
+description = ""
+
+# levels 1-35
+
+[levels.1]
+battle_power = 7
+effect = "Shows the name of the Commander owning fleets coming towards you"

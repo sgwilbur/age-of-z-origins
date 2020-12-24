@@ -1,0 +1,16 @@
+name = "Camp"
+description = "Camp is where you recruit more troops. Upgrade to unlock more troop types and increase your recruitment speed."
+
+[levels.14]
+battle_power = 6130
+
+[levels.15]
+battle_power = 7816
+building_prerequisites={main-hall=15}
+costs={food=945940,oil=630632}
+gold_cost=4312
+duration="22h 2m 38s"
+
+[levels.16]
+battle_power = 9816
+#unlocks = {intermediate-rocket-launcher, intermediate-sniper}

@@ -1,0 +1,12 @@
+name = "Hospital"
+description = "Heals Wounded and Repairs Machines. Upgrade building level to increase your Max Wounded Units and increase Healing Speed."
+max_level = 35
+
+
+
+[levels.17]
+battle_power = 7156
+max_wounded_units = 16000
+healing_speed=0.36
+building_prerequisites={farm=17}
+cost={food=1039070,oil=692710,steel=11450}

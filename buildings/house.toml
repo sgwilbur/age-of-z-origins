@@ -1,0 +1,49 @@
+name = "House"
+description = "Use to turn Refugees into citizens of your City. Upgrade to house more people."
+
+# Levels 1-30
+
+[levels.1]
+battle_power = 3
+refugee_limit_boost = 400
+
+[levels.2]
+battle_power = 8
+refugee_limit_boost = 500
+cost={food=430,oil=430}
+building_prerequisites={main-hall=5}
+
+[levels.3]
+battle_power = 20
+refugee_limit_boost = 600
+cost={food=550,oil=550}
+building_prerequisites={main-hall=5}
+
+[levels.4]
+battle_power = 43
+refugee_limit_boost = 700
+cost={food=780,oil=780}
+building_prerequisites={main-hall=5}
+
+[levels.5]
+battle_power = 79
+refugee_limit_boost = 800
+cost={food=1160,oil=1160}
+building_prerequisites={main-hall=5}
+
+[levels.6]
+battle_power = 133
+refugee_limit_boost = 900
+cost={food=1790,oil=1790}
+building_prerequisites={main-hall=6}
+
+# TODO
+# levels 7-16
+
+[levels.17]
+battle_power = 3455
+refugee_limit_boost = 2700
+cost={food=313720,oil=313720,steel=53780}
+building_prerequisites={main-hall=17}
+
+# TODO: Levels 18-30
