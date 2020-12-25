@@ -3,25 +3,213 @@ description = "Upgrade City Wall to increase the City Defense limit. You can act
 max_level = 35
 
 [levels.1]
-battle_power = 10
-city_defense_limit = 300
+  city_defense_limit = 300
+  battle_power = 10
+  building_prerequisites={}
+  cost={}
+
+[levels.2]
+  city_defense_limit = 600
+  battle_power = 29
+  building_prerequisites={}
+  cost={}
+
+[levels.3]
+  city_defense_limit = 900
+  battle_power = 58
+  building_prerequisites={}
+  cost={}
+
+[levels.4]
+  city_defense_limit = 1200
+  battle_power = 111
+  building_prerequisites={}
+  cost={}
+
+[levels.5]
+  city_defense_limit = 1500
+  battle_power = 204
+  building_prerequisites={}
+  cost={}
+
+[levels.6]
+  city_defense_limit = 1800
+  battle_power = 354
+  building_prerequisites={}
+  cost={}
+
+[levels.7]
+  city_defense_limit = 2100
+  battle_power = 581
+  building_prerequisites={}
+  cost={}
+
+[levels.8]
+  city_defense_limit = 2400
+  battle_power = 906
+  building_prerequisites={}
+  cost={}
+
+[levels.9]
+  city_defense_limit = 2700
+  battle_power = 1351
+  building_prerequisites={}
+  cost={}
+
+[levels.10]
+  city_defense_limit = 3000
+  battle_power = 1940
+  building_prerequisites={}
+  cost={}
+
+[levels.11]
+  city_defense_limit = 3300
+  battle_power = 2698
+  building_prerequisites={}
+  cost={}
+
+[levels.12]
+  city_defense_limit = 3600
+  battle_power = 3653
+  building_prerequisites={}
+  cost={}
+
+[levels.13]
+  city_defense_limit = 3900
+  battle_power = 4834
+  building_prerequisites={}
+  cost={}
+
+[levels.14]
+  city_defense_limit = 4200
+  battle_power = 6271
+  building_prerequisites={}
+  cost={}
+
+[levels.15]
+  city_defense_limit = 4600
+  battle_power = 7996
+  building_prerequisites={}
+  cost={}
 
 [levels.16]
-battle_power = 10042
-city_defense_limit = 5000
-building_prerequisites={}
-cost={}
+  city_defense_limit = 5000
+  battle_power = 10042
+  building_prerequisites={}
+  cost={}
 
 [levels.17]
-battle_power = 12445
-city_defense_limit = 5400
-building_prerequisites={main-hall=17}
-cost={oil=6036880,steel=517440}
-gold_cost=17610
-duration="1d 16h 23m 47s"
+  city_defense_limit = 5400
+  battle_power = 12445
+  building_prerequisites={main-hall=17}
+  cost={oil=6036880,steel=517440}
+  gold_cost=17610
+  duration="1d 16h 23m 47s"
 
 [levels.18]
-battle_power = 15242
-city_defense_limit = 5800
-building_prerequisites={main-hall=-1}
-cost={oil=-1,steel=-1}
+  city_defense_limit = 5800
+  battle_power = 15242
+  building_prerequisites={main-hall=18}
+  cost={}
+
+[levels.19]
+  city_defense_limit = 6200
+  battle_power = 18471
+  building_prerequisites={}
+  cost={}
+
+[levels.20]
+  city_defense_limit = 6600
+  battle_power = 22172
+  building_prerequisites={}
+  cost={}
+
+[levels.21]
+  city_defense_limit = 7000
+  battle_power = 26386
+  building_prerequisites={}
+  cost={}
+
+[levels.22]
+  city_defense_limit = 7400
+  battle_power = 31157
+  building_prerequisites={}
+  cost={}
+
+[levels.23]
+  city_defense_limit = 7800
+  battle_power = 36530
+  building_prerequisites={}
+  cost={}
+
+[levels.24]
+  city_defense_limit = 8200
+  battle_power = 42551
+  building_prerequisites={}
+  cost={}
+
+[levels.25]
+  city_defense_limit = 8700
+  battle_power = 49268
+  building_prerequisites={}
+  cost={}
+
+[levels.26]
+  city_defense_limit = 9200
+  battle_power = 56730
+  building_prerequisites={}
+  cost={}
+
+[levels.27]
+  city_defense_limit = 9700
+  battle_power = 64989
+  building_prerequisites={}
+  cost={}
+
+[levels.28]
+  city_defense_limit = 10200
+  battle_power = 74098
+  building_prerequisites={}
+  cost={}
+
+[levels.29]
+  city_defense_limit = 10700
+  battle_power = 84111
+  building_prerequisites={}
+  cost={}
+
+[levels.30]
+  city_defense_limit = 11200
+  battle_power = 95084
+  building_prerequisites={}
+  cost={}
+
+[levels.31]
+  city_defense_limit = 11700
+  battle_power = 110297
+  building_prerequisites={}
+  cost={}
+
+[levels.32]
+  city_defense_limit = 12200
+  battle_power = 126842
+  building_prerequisites={}
+  cost={}
+
+[levels.33]
+  city_defense_limit = 12700
+  battle_power = 144600
+  building_prerequisites={}
+  cost={}
+
+[levels.34]
+  city_defense_limit = 13200
+  battle_power = 163398
+  building_prerequisites={}
+  cost={}
+
+[levels.35]
+  city_defense_limit = 13700
+  battle_power = 183006
+  building_prerequisites={}
+  cost={}

@@ -50,8 +50,8 @@ effects = ["refugee_limit"]
   battle_power = 133
   building_prerequisites={main-hall=6}
   cost={food=1790,oil=1790}
-  gold_cost = -1
-  duration = ""
+  gold_cost = 15
+  duration = "9m 9s"
 
 [levels.7]
   refugee_limit_boost = 1000
@@ -66,16 +66,16 @@ effects = ["refugee_limit"]
   battle_power = 313
   building_prerequisites = {main-hall=8}
   costs = {food=5730,oil=5730}
-  gold_cost = 84
-  duration = "32m 18s"
+  gold_cost = 84 # 69
+  duration = "32m 18s" # "27m 28s"
 
 [levels.9]
   refugee_limit_boost = 1200
   battle_power = 450
-  building_prerequisites = {}
-  costs = {}
-  gold_cost = -1
-  duration = ""
+  building_prerequisites = {main-hall=9}
+  costs = {food=9950,oil=9950}
+  gold_cost = 118
+  duration = "45m 48s"
 
 [levels.10]
   refugee_limit_boost = 1300
