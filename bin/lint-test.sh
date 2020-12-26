@@ -1,6 +1,8 @@
 #!/bin/bash
 
-for i in $(find . -name '*.toml' -o -name '*.yml') 
+# find any toml or yml files excluding the .github directory
+#for i in $(find . -path ./.github/ -prune -o -name '*.toml' -o -name '*.yml')
+for i in $(find . -name '*.toml' -o -name '*.yml')
 do
   ./bin/reader.py $i > /dev/null
   result=$?
